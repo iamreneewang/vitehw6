@@ -1,0 +1,22 @@
+.noto-tc-serif {
+    font-family: 'Noto Serif TC' !important;
+}
+
+.noto-tc-sans {
+    font-family: 'Noto Sans TC' !important;
+}
+
+a{
+    cursor: pointer;
+}
+
+.container {    
+    max-width: 1440px !important;
+    padding-left: 72px !important;
+    padding-right: 72px !important;
+
+    @include mobile {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}

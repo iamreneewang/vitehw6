@@ -1,0 +1,61 @@
+<link rel="shortcut icon" href="/assets/images/logo.png">
+
+<div class="container  border-bottom border-2 border-dark">
+    <div class="d-flex align-items-center justify-content-between mt-24 pb-24">
+        <div class="d-flex align-items-center gap-lg-16 me-25">
+            <a href="index.html"><img src="/assets/images/logo.png" alt="logo" width="53" height="53"></a>
+            <a href="index.html" class="d-flex text-primary align-items-center gap-lg-16">
+                <h1 class="mb-0 d-lg-block d-none">7TAO</h1>
+                <p class="mb-0 d-lg-block d-none fw-bold noto-tc-serif">活動訂票網</p>
+            </a>
+            <div class="ms-16 position-relative">
+                <input class="form-control header-input form-control-lg border-dark search" type="text" placeholder="探索活動"
+                    aria-label=".form-control-lg" height="53">
+                <div class="box position-absolute top-0 end-0 d-flex justify-content-center align-items-center">
+                    <i class="icofont-search-1 text-secondary h5"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-md-inline-flex gap-14 d-none">
+            <a href="#" class="text-primary hover-text-yellow">
+                <div class="d-inline-flex align-items-center gap-4">
+                    <i class="icofont-ui-file"></i>
+                    <p class="mb-0 fs-18">REGISTER</p>
+                </div>
+            </a>
+            <a href="login.html" class="text-primary hover-text-yellow">
+                <div class="d-inline-flex align-items-center gap-4">
+                    <i class="icofont-ui-user"></i>
+                    <p class="mb-0 fs-18">LOGIN</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- hamburgerMenu -->
+        <div class="d-md-none d-block">
+            <a class="btn btn-outline-primary rounded" data-bs-toggle="collapse" href="#hamburgerMenu" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                <i class="icofont-navigation-menu"></i>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<!-- hamburgerMenu -->
+<div class="container collapse position-absolute border-bottom border-2 border-dark bg-custom d-md-none"
+    id="hamburgerMenu" style="z-index: 10000;">
+    <ul class="list-unstyled py-4 bg-custom">
+        <li class="mt-24">
+            <a href="login.html" class="d-flex align-items-center text-primary fs-18 hover-text-yellow">
+                <i class="me-4 icofont-ui-file"></i>REGISTER
+            </a>
+        </li>
+        <li class="mt-16">
+            <a href="login.html" class="d-flex align-items-center text-primary fs-18 hover-text-yellow">
+                <i class="me-4 icofont-ui-user"></i>LOGIN
+            </a>
+        </li>
+    </ul>
+</div>
