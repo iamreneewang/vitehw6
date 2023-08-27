@@ -1,6 +1,9 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
 
+@import './utils/utilities';
+// 如果要修改變數一定要引入@import "../../node_modules/bootstrap/scss/functions";
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@400;700&family=Yeseva+One&display=swap');
 
 @import './mixin/media.scss';

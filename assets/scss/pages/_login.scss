@@ -15,3 +15,20 @@ h3 {
     }
 }
 
+
+.btn-submit:hover {
+    color: #fbff22!important;  
+  }
+
+
+  /* 通過驗證樣式 */
+.was-validated .form-control-lg:valid,
+.was-validated .form-control-lg:valid:focus {
+  border-color: #fbff22!important; 
+  box-shadow: none!important; 
+} 
+/* 未通過驗證樣式 */
+ .was-validated .form-control-lg:invalid,
+.was-validated .form-control-lg:invalid:focus {
+    border-color: red!important;  
+}
