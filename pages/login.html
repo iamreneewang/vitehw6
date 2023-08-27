@@ -10,43 +10,46 @@
 </head>
 
 <body>
-  <%- include('./layout/header'); -%>
+ 
+  <div class="d-flex flex-column vh-100">
+    <%- include('./layout/header'); -%>
+    <div class="container flex-grow-1">
 
-    <div class="container">
-      <div class="row mt-md-60 mt-24">
-        <div class="col-lg-4 col-md-6 col-12 mx-auto text-center">
-          <img class="login-icon" src="/assets/images/sparkler.png" alt="sparkler">
-          <h3 class="fw-bold fs-24 my-16">會員登入</h3>
-          <form class="needs-validation text-start" method="POST" class="text-start" novalidate>
+      <div class="col-lg-4 col-md-6 col-12 mx-auto text-center mt-md-60 mt-24">
+        <img class="login-icon" src="/assets/images/sparkler.png" alt="sparkler">
+        <h3 class="fw-bold fs-24 my-16">會員登入</h3>
+        <form class="needs-validation text-start" method="POST" class="text-start" novalidate>
 
-            <div class="mb-16">
-              <label class="noto-tc-sans form-label mb-0" for="user_login">帳號</label>
-              <input class="mt-8 w-100 form-control form-control-lg border border-2 border-primary login-input"
-                type="text" id="user_login" placeholder="請輸入帳號" aria-label="請輸入帳號" required>
-              <div class="invalid-feedback">
-                請輸入帳號
-              </div>
+          <div class="mb-16">
+            <label class="noto-tc-sans form-label mb-0" for="user_login">帳號</label>
+            <input class="mt-8 w-100 form-control form-control-lg border border-2 border-primary login-input"
+              type="text" id="user_login" placeholder="請輸入帳號" aria-label="請輸入帳號" required>
+            <div class="invalid-feedback">
+              請輸入帳號
             </div>
+          </div>
 
-            <div class="mb-lg-32 mb-24">
-              <label class="noto-tc-sans form-label mb-0" for="user_password">密碼</label>
-              <input class="mt-8 w-100 form-control form-control-lg border border-2 border-primary login-input"
-                type="password" id="user_password" placeholder="請輸入密碼" aria-label="請輸入密碼" required>
-              <div class="invalid-feedback">
-                請輸入密碼
-              </div>
+          <div class="mb-lg-32 mb-24">
+            <label class="noto-tc-sans form-label mb-0" for="user_password">密碼</label>
+            <input class="mt-8 w-100 form-control form-control-lg border border-2 border-primary login-input"
+              type="password" id="user_password" placeholder="請輸入密碼" aria-label="請輸入密碼" required>
+            <div class="invalid-feedback">
+              請輸入密碼
             </div>
+          </div>
 
-            <button type="submit" class="btn btn-submit btn-primary w-100 py-8 mb-md-175 mb-264">
-              <span class="me-4 fs-20 fw-bold noto-tc-sans">登入</span>
-              <i class="icofont-rounded-double-right"></i>
-            </button>
+          <button type="submit" class="btn btn-submit btn-primary w-100 py-8">
+            <span class="me-4 fs-20 fw-bold noto-tc-sans">登入</span>
+            <i class="icofont-rounded-double-right"></i>
+          </button>
 
-          </form>
-        </div>
+        </form>
       </div>
+
     </div>
     <%- include('./layout/footer'); -%>
+  </div>
+   
       <script type="module" src="../main.js"></script>
       <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
       <script>

@@ -75,8 +75,8 @@ body {
   }
 }
 
-.hover-color-tertiary:hover{
-  color:#C96464!important;
+.hover-color-tertiary:hover {
+  color: #C96464 !important;
 }
 
 //重要用偽元素做圓形hover，可以在任一位置
@@ -154,19 +154,20 @@ body {
   }
 
   .swiper-slide {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding:24px auto;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 3.2px;
     width: auto;
     color: #FBFF22;
     background: #000;
-    height: 94px;
+    max-height: 94px;
 
     @include mobile {
+      padding:16px auto;
       font-size: 16px;
       letter-spacing: 1.6px;
+      max-height: 55px;
     }
 
   }
@@ -245,15 +246,16 @@ body {
   }
 }
 
-.modal-btn{
+.modal-btn {
   background-color: #000;
   border: 0px;
 
 }
-.modal-btn:hover{
+
+.modal-btn:hover {
   color: #9C9E18 !important;
 }
 
-.btn-close{
-  opacity:1;
+.btn-close {
+  opacity: 1;
 }
