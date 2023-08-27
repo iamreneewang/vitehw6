@@ -42,3 +42,7 @@
 
 
 -網站:https://iamreneewang.github.io/vitehw6/
+
+
+#留意X軸問題
+中間發現

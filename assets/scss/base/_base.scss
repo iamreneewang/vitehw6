@@ -20,3 +20,14 @@ a{
         padding-right: 16px !important;
     }
 }
+
+
+.container2 {    
+    max-width: 1296px !important;
+
+
+    @include mobile {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}

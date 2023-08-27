@@ -75,6 +75,10 @@ body {
   }
 }
 
+.hover-color-tertiary:hover{
+  color:#C96464!important;
+}
+
 //重要用偽元素做圓形hover，可以在任一位置
 
 
@@ -85,6 +89,11 @@ body {
 
 .recent-img {
   max-height: 255px;
+  object-fit: cover;
+
+  @include mobile {
+    max-height: 210px;
+  }
 }
 
 .recent-icon {
@@ -103,8 +112,12 @@ body {
 .tag {
   display: inline-block;
   padding: 4px 24px;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
+
+  @include mobile {
+    font-size: 14px;
+  }
 
   &:before {
     content: "";
@@ -199,15 +212,17 @@ body {
   }
 }
 
-.h2-title{
+.h2-title {
   font-size: 64px;
+
   @include mobile {
     font-size: 24px;
   }
 }
 
-.p-info{
+.p-info {
   font-size: 32px;
+
   @include mobile {
     font-size: 16px;
   }
@@ -228,4 +243,17 @@ body {
   @include mobile {
     font-size: 16px;
   }
+}
+
+.modal-btn{
+  background-color: #000;
+  border: 0px;
+
+}
+.modal-btn:hover{
+  color: #9C9E18 !important;
+}
+
+.btn-close{
+  opacity:1;
 }
