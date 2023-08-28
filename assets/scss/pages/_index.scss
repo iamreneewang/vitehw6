@@ -84,8 +84,16 @@ body {
 
 .hover-text-yellow:hover {
   color: #9C9E18 !important;
+
+  img{
+    filter: invert(54%) sepia(10%) saturate(2615%) hue-rotate(313deg) brightness(86%) contrast(85%);
+  }
 }
 
+.hover-text-red:hover {
+  color: #C96464 !important;
+
+}
 
 .recent-img {
   max-height: 255px;

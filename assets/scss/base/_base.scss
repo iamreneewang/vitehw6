@@ -10,24 +10,3 @@ a{
     cursor: pointer;
 }
 
-.container {    
-    max-width: 1440px !important;
-    padding-left: 72px !important;
-    padding-right: 72px !important;
-
-    @include mobile {
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-    }
-}
-
-
-.container2 {    
-    max-width: 1296px !important;
-
-
-    @include mobile {
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-    }
-}
